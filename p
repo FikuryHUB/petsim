@@ -1,3 +1,7 @@
+for i,v in pairs(getconnections(game:GetService("Players").LocalPlayer.PlayerGui.Main.ChooseTeam.Container.Pirates.Frame.ViewportFrame.TextButton.MouseButton1Click)) do
+    v.Function()
+    end
+
 getgenv().Settings = {
     --AutoFarm [Third Sea]
 	["Auto Farm Level"] = false,
